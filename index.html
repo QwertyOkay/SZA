@@ -1,0 +1,356 @@
+<!DOCTYPE html><html lang="en" class="js"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SZA SOS</title>
+  <meta name="description" content="New Album SZA SOS">
+  <meta name="keywords" content="SZA SOS Album">
+  <meta name="author" content="Integral Studios dev: @mitchell.digital">
+  <link rel="shortcut icon" href="images/cover.png">
+
+  <meta key="og:type" property="og:type" content="website">
+  <meta key="og:title" property="og:title" content>
+  <meta key="og:url" property="og:url" content="https://cdn.glitch.global/1fbe8b97-190d-4cc4-9ecc-70e9dc7dee8b/cover.png?v=1670184987870">
+  <meta key="og:description" property="og:description" content>
+  <meta key="og:image" property="og:image" content="https://cdn.glitch.global/1fbe8b97-190d-4cc4-9ecc-70e9dc7dee8b/cover.png?v=1670184987870">
+
+  <meta key="twitter:card" name="twitter:card" content="summary_large_image">
+  <meta key="twitter:site" name="twitter:site" content="https://cdn.glitch.global/1fbe8b97-190d-4cc4-9ecc-70e9dc7dee8b/cover.png?v=1670184987870">
+
+  <meta key="twitter:title" name="twitter:title" content="SZA SOS">
+  <meta key="twitter:description" name="twitter:description" content="New Album SZA SOS">
+  <meta key="twitter:image" name="twitter:image" content="https://cdn.glitch.global/1fbe8b97-190d-4cc4-9ecc-70e9dc7dee8b/cover.png?v=1670184987870">
+  <meta key="twitter:image:alt" name="twitter:image:alt" content="SZA SOS">
+
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PPBQ67"></script><script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/mainStyles.css">
+
+  <script>
+    document.documentElement.className = "js";
+    var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+    supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+  </script>
+
+  <script src="js/jquery.min.js"></script>
+</head>
+
+<body id="footer-show">
+
+  <section id="homePage">
+
+    <audio id="player" autostart="0" name="media">
+      <!-- Change Audio Src here -->
+      <source src="media/SZASOS.mp3" type="audio/mp3">
+    </audio>
+    <!-- SZA Background --------------------------------------------------------------- -->
+    <div id="bg">
+      <img id="sza-gif" alt="sza gif" src="images/SZA-Cutout-GIF.gif">
+    </div>
+
+    <!-- Water Background --------------------------------------------------------------- -->
+    <div id="water-bg"></div>
+
+
+
+    <!-- header --------------------------------------------------------------- -->
+    <header class="header hidden">
+      <div>
+        <nav class="nav1">
+          <li><a href="/">Home</a> <span class="underline"></span></li>
+          <li><a href="/videos">Videos</a></li>
+          <li><a href="https://txdxe.com/collections/sza">Merch</a></li>
+          <li><a href="/tour">Tour</a></li>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Morse Animation --------------------------------------------------------------- -->
+    <div class="loader-wrapper">
+      <div class="inner">
+        <div class="title">
+          <div>
+            <div class="sos">
+              <p id="output" class="scramble">
+              </p><div id="morse1" class="circle letters"></div>
+              <div id="morse2" class="circle letters"></div>
+              <div id="morse3" class="circle letters"></div>
+              <p></p>
+              <p class="scramble">
+              </p><div id="morse4" class="line letters"></div>
+              <div id="morse5" class="line letters"></div>
+              <div id="morse6" class="line letters"></div>
+              <p></p>
+              <p id="output2" class="scramble">
+              </p><div id="morse7" class="circle letters"></div>
+              <div id="morse8" class="circle letters"></div>
+              <div id="morse9" class="circle letters"></div>
+              <p></p>
+            </div>
+            <div id="enterBtn" class="enter">
+              <button id="loaderBtn" disabled="true" class="btn">
+                Loading
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- sza sos title + pre save --------------------------------------------------------------- -->
+    <div id="section1" class="title-wrapper">
+      <div class="inner">
+        <div class="title">
+          <div>
+            <div class="sos">
+              <div class="scramble">
+                <p>
+                  <span class="letters2 txt-reveal">
+                    S
+                  </span>
+                </p>
+                <p>
+                  <span class="letters2 txt-reveal">
+                    Z
+                  </span>
+                </p>
+                <p>
+                  <span class="letters2 txt-reveal">
+                    A
+                  </span>
+                </p>
+              </div>
+              <p class="scramble">
+              </p><div class="line letters"></div>
+              <div class="line letters"></div>
+              <div class="line letters"></div>
+              <p></p>
+              <div class="scramble">
+                <p>
+                  <span class="letters2 txt-reveal">
+                    S
+                  </span>
+                </p>
+                <p>
+                  <span class="letters2 txt-reveal">
+                    O
+                  </span>
+                </p>
+                <p>
+                  <span id="top" class="letters2 txt-reveal">
+                    S
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+
+          <div id="presave" class="preSave-wrapper preSave-show">
+
+            <p class="listen hidden">LISTEN NOW!</p>
+
+            <div class="icon-wrapper hidden">
+
+              <a href="https://sza.lnk.to/SOS">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_296_228)">
+                    <path d="M26.3893 24.9377C25.9053 26.0557 25.3325 27.0848 24.6689 28.0309C23.7642 29.3208 23.0235 30.2136 22.4526 30.7094C21.5677 31.5232 20.6196 31.94 19.6043 31.9637C18.8755 31.9637 17.9965 31.7563 16.9733 31.3355C15.9467 30.9168 15.0034 30.7094 14.1408 30.7094C13.2361 30.7094 12.2659 30.9168 11.2281 31.3355C10.1887 31.7563 9.3514 31.9755 8.7112 31.9973C7.7376 32.0387 6.7672 31.6101 5.79853 30.7094C5.18027 30.1701 4.407 29.2457 3.48058 27.9361C2.48663 26.5377 1.66948 24.916 1.0293 23.0671C0.343693 21.0702 0 19.1364 0 17.2643C0 15.1197 0.463393 13.2701 1.39156 11.7201C2.12102 10.4751 3.09145 9.49307 4.30607 8.77207C5.5206 8.05114 6.833 7.68374 8.24627 7.66021C9.01953 7.66021 10.0337 7.89941 11.2939 8.36954C12.5505 8.84121 13.3574 9.08041 13.7111 9.08041C13.9757 9.08041 14.872 8.80074 16.3916 8.24314C17.8285 7.72601 19.0413 7.51187 20.0349 7.59621C22.7272 7.81347 24.7498 8.87481 26.095 10.7868C23.6871 12.2457 22.4961 14.2891 22.5198 16.9105C22.5415 18.9523 23.2822 20.6514 24.738 22.0005C25.3977 22.6267 26.1345 23.1106 26.9542 23.4543C26.7764 23.9699 26.5888 24.4637 26.3893 24.9377ZM20.2147 0.640182C20.2147 2.24055 19.63 3.73481 18.4646 5.11787C17.0582 6.76207 15.3571 7.71214 13.5125 7.56227C13.4889 7.37027 13.4753 7.16821 13.4753 6.95587C13.4753 5.4195 14.1441 3.77529 15.3319 2.43094C15.9248 1.75027 16.679 1.1843 17.5935 0.732821C18.5061 0.288073 19.3693 0.0421187 20.1811 0C20.2048 0.213944 20.2147 0.427901 20.2147 0.640162V0.640182Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_296_228">
+                      <rect width="32" height="32" fill="white"/>
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+
+              <a href="https://sza.lnk.to/SOS">
+                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_296_231)">
+                    <path d="M14.333 0C6.60121 0 0.333008 6.26752 0.333008 14C0.333008 21.7325 6.60121 28 14.333 28C22.0648 28 28.333 21.7325 28.333 14C28.333 6.26752 22.0648 0 14.333 0ZM21.1633 20.1818C20.9385 20.58 20.5249 20.804 20.0985 20.804C19.8991 20.804 19.6933 20.7542 19.5045 20.6491C17.7567 19.6691 15.8518 19.0689 13.8388 18.865C11.8215 18.6629 9.82967 18.8675 7.91634 19.4785C7.27788 19.6823 6.59057 19.3295 6.38696 18.69C6.1812 18.0494 6.53544 17.3645 7.17602 17.1595C9.40756 16.4466 11.7345 16.2042 14.0848 16.443C16.4309 16.6818 18.6539 17.3818 20.6945 18.5256C21.2821 18.8527 21.4921 19.5947 21.1633 20.1818ZM22.839 15.9295C22.6227 16.3458 22.1985 16.5847 21.7594 16.5847C21.5685 16.5847 21.3776 16.541 21.1972 16.4466C19.0485 15.3274 16.7278 14.6345 14.2948 14.3875C11.8427 14.1366 9.41391 14.3553 7.07211 15.0307C6.42514 15.2144 5.75059 14.8445 5.56605 14.1977C5.37938 13.552 5.7527 12.8774 6.39755 12.691C9.04057 11.9289 11.7812 11.6847 14.5409 11.9647C17.2815 12.2438 19.8991 13.0245 22.3236 14.2878C22.9176 14.5986 23.1509 15.3334 22.839 15.9295ZM23.4457 12.3917C23.2633 12.3917 23.0788 12.3506 22.9027 12.264C20.353 10.9926 17.6103 10.2007 14.7488 9.91032C11.883 9.61713 9.03211 9.84368 6.2724 10.5806C5.62331 10.7529 4.95725 10.3678 4.78331 9.71768C4.60937 9.06839 4.99544 8.40087 5.64666 8.22752C8.69057 7.41471 11.8385 7.16713 14.9969 7.48832C18.1512 7.80752 21.176 8.68168 23.9888 10.0845C24.5912 10.3844 24.8351 11.116 24.536 11.7171C24.3239 12.145 23.8933 12.3917 23.4457 12.3917Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_296_231">
+                      <rect width="28" height="28" fill="white" transform="translate(0.333008)"/>
+                    </clippath>
+                  </defs>
+                </svg>
+
+              </a>
+
+              <a href="https://sza.lnk.to/SOS">
+                <svg width="50" height="22" viewBox="0 0 50 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_296_233)">
+                    <path d="M49.333 15.7697C49.3406 12.3181 46.6375 9.52357 43.3219 9.52357C42.4948 9.52357 41.7062 9.69776 40.9787 10.0065C40.4886 4.40158 35.9401 0 30.3884 0C29.0254 0 27.7084 0.261245 26.5368 0.744152C26.0697 0.918319 25.9395 1.09248 25.9395 1.47248V21.24C25.9395 21.6358 26.2381 21.9208 26.598 21.9683H43.3142C46.6299 21.9683 49.333 19.1975 49.333 15.7697Z" fill="white"/>
+                    <path d="M25.3958 2.13004C25.3652 1.89254 25.2427 1.67088 25.0513 1.56005C24.9671 1.49672 24.8369 1.44922 24.7297 1.44922C24.5612 1.44922 24.4081 1.51255 24.3008 1.59963C24.1554 1.73421 24.0634 1.93213 24.0481 2.13004V2.19337L23.7954 16.1819L23.9256 18.7547L24.0558 21.2643C24.0788 21.6363 24.3774 21.9451 24.7373 21.9451C25.0972 21.9451 25.3958 21.6363 25.3958 21.2643L25.6945 16.1819L25.3958 2.13004Z" fill="white"/>
+                    <path d="M12.4548 5.50195C12.6691 5.50195 12.8606 5.67611 12.8606 5.92152L13.2665 16.213L12.8606 21.5804C12.8606 21.8258 12.6691 22 12.4548 22C12.2174 22 12.0489 21.8258 12.0259 21.5804L11.689 16.213L12.0259 5.92152C12.0489 5.67611 12.2174 5.50195 12.4548 5.50195Z" fill="white"/>
+                    <path d="M10.862 7.80598C10.862 7.58432 10.6935 7.41016 10.5021 7.41016C10.2877 7.41016 10.1422 7.58432 10.1192 7.80598L9.73633 16.1658L10.1192 21.5728C10.1422 21.7944 10.2877 21.9686 10.5021 21.9686C10.6935 21.9686 10.862 21.7944 10.862 21.5728L11.3061 16.1658L10.862 7.80598Z" fill="white"/>
+                    <path d="M9.30738 16.1657L8.86327 11.02C8.84024 10.8458 8.6948 10.6875 8.52633 10.6875C8.35017 10.6875 8.20472 10.8458 8.20472 11.02L7.77588 16.1657L8.20472 21.5727C8.20472 21.7706 8.35787 21.921 8.52633 21.921C8.6948 21.921 8.84024 21.7706 8.86327 21.5727L9.30738 16.1657Z" fill="white"/>
+                    <path d="M1.07578 13.3464C1.05281 13.2355 0.991548 13.1484 0.884343 13.1484C0.777139 13.1484 0.71588 13.2355 0.692907 13.3464L0.333008 16.1646L0.692907 18.9355C0.71588 19.0462 0.777139 19.1333 0.884343 19.1333C0.991548 19.1333 1.05281 19.0462 1.07578 18.9355L1.5046 16.1646L1.07578 13.3464Z" fill="white"/>
+                    <path d="M2.69128 11.416C2.79849 11.416 2.88272 11.5031 2.90569 11.6139L3.45702 16.1659L2.90569 20.6308C2.88272 20.7417 2.79849 20.8287 2.69128 20.8287C2.58408 20.8287 2.49984 20.7417 2.49984 20.6071L2.00977 16.1659L2.49984 11.6139C2.49984 11.5031 2.58408 11.416 2.69128 11.416Z" fill="white"/>
+                    <path d="M4.86634 10.7748C4.86634 10.6245 4.75914 10.5137 4.62896 10.5137C4.49879 10.5137 4.39158 10.6245 4.37626 10.7748L3.93213 16.166L4.37626 21.3751C4.39924 21.5097 4.50644 21.6205 4.62896 21.6205C4.75914 21.6205 4.86634 21.5097 4.86634 21.3751L5.3947 16.166L4.86634 10.7748Z" fill="white"/>
+                    <path d="M6.56599 10.3398C6.71148 10.3398 6.84166 10.4506 6.86463 10.6248L7.35471 16.1664L6.86463 21.5338C6.84166 21.708 6.71148 21.8188 6.56599 21.8188C6.4205 21.8188 6.29033 21.708 6.29033 21.5338L5.84619 16.1664L6.29033 10.6248C6.29033 10.4506 6.4205 10.3398 6.56599 10.3398Z" fill="white"/>
+                    <path d="M23.0067 2.77099C23.1752 2.88182 23.2824 3.07974 23.3053 3.30139L23.558 16.1895L23.3206 20.8286L23.2977 21.359C23.2977 21.541 23.2364 21.6915 23.1063 21.8023C22.999 21.9132 22.8459 22.0002 22.6774 22.0002C22.486 22.0002 22.3175 21.9052 22.1873 21.7548C22.1031 21.644 22.0572 21.5173 22.0572 21.3827V21.359C21.8198 16.1895 21.8198 16.1657 21.8198 16.1657L22.0342 3.43598L22.0572 3.30139C22.0572 3.07974 22.1644 2.88182 22.3328 2.77099C22.4324 2.70765 22.5473 2.66016 22.6698 2.66016C22.7923 2.66016 22.8995 2.70765 23.0067 2.77099Z" fill="white"/>
+                    <path d="M14.9435 5.03564C14.9282 4.7744 14.7368 4.55273 14.4764 4.55273C14.239 4.55273 14.0322 4.7744 14.0322 5.03564L13.6953 16.1663L14.0322 21.4862C14.0553 21.7474 14.2467 21.9453 14.4764 21.9453C14.7291 21.9453 14.9205 21.7474 14.9435 21.4862L15.3264 16.1663L14.9435 5.03564Z" fill="white"/>
+                    <path d="M20.6025 4.75C20.9241 4.75 21.1538 5.01124 21.1768 5.36749L21.4754 16.1893L21.1768 21.3826C21.1768 21.7151 20.9241 21.9764 20.6025 21.9764C20.2809 21.9764 20.0282 21.7151 20.0051 21.3826L19.7524 16.1893L20.0051 5.36749C20.0282 5.01124 20.2809 4.75 20.6025 4.75Z" fill="white"/>
+                    <path d="M17.0108 4.66322C16.9878 4.37823 16.7734 4.13281 16.4977 4.13281C16.245 4.13281 16.0077 4.37823 16.0077 4.66322L15.709 16.1659L16.0077 21.4621C16.0306 21.7471 16.245 21.9687 16.4977 21.9687C16.7734 21.9687 16.9878 21.7471 17.0108 21.4621L17.3477 16.1659L17.0108 4.66322Z" fill="white"/>
+                    <path d="M18.5423 4.40234C18.841 4.40234 19.0707 4.63984 19.0707 4.94859L19.3923 16.1663L19.0707 21.4229C19.0707 21.7237 18.8333 21.9691 18.5423 21.9691C18.2514 21.9691 18.0369 21.7316 18.014 21.4229L17.7153 16.1663L18.014 4.94859C18.014 4.64776 18.2437 4.40234 18.5423 4.40234Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_296_233">
+                      <rect width="49" height="22" fill="white" transform="translate(0.333008)"/>
+                    </clippath>
+                  </defs>
+                </svg>
+
+
+              </a>
+
+              <a href="https://sza.lnk.to/SOS">
+                <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_296_248)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.7383 20.6314C21.7823 22.7685 17.4969 23.9051 13.8063 23.9051C8.63429 23.9051 3.97718 22.032 0.452471 18.9141C0.175846 18.6693 0.422689 18.335 0.754868 18.5246C4.55773 20.692 9.26037 21.9981 14.117 21.9981C17.3933 21.9981 20.9948 21.3317 24.3084 19.9545C24.8081 19.747 25.2271 20.2771 24.7383 20.6314Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.9686 19.2564C25.5906 18.7826 23.4693 19.0321 22.5163 19.1439C22.2276 19.1778 22.183 18.9306 22.4428 18.7515C24.1353 17.5876 26.9075 17.9237 27.2301 18.3135C27.5544 18.7062 27.1447 21.43 25.5592 22.7299C25.315 22.9293 25.0828 22.8231 25.1915 22.5592C25.5484 21.6861 26.3471 19.7313 25.9686 19.2564Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7764 17.9864C18.5611 18.1763 18.2492 18.1883 18.0069 18.0613C16.923 17.1786 16.73 16.7718 16.1387 15.9322C14.3485 17.7178 13.0817 18.2542 10.7634 18.2542C8.01829 18.2542 5.88379 16.5948 5.88379 13.2759C5.88379 10.6823 7.31654 8.91941 9.36076 8.05566C11.1293 7.29398 13.5997 7.1563 15.4894 6.94838V6.53318C15.4894 5.77227 15.552 4.87522 15.0941 4.21806C14.6967 3.63042 13.9339 3.38841 13.2639 3.38841C12.021 3.38841 10.9147 4.01147 10.6438 5.30564C10.5866 5.59375 10.3728 5.8782 10.0772 5.89331L6.91669 5.55754C6.65036 5.49927 6.35315 5.28901 6.43111 4.88898C7.15602 1.13444 10.6191 0 13.7208 0C15.3073 0 17.3816 0.413576 18.6322 1.58963C20.217 3.0418 20.065 4.97805 20.065 7.08758V12.0627C20.065 13.5611 20.6995 14.2167 21.2946 15.023C21.5023 15.3142 21.5495 15.6592 21.2847 15.8724C20.6185 16.4184 19.4341 17.426 18.7842 17.9939L18.7764 17.9864ZM15.4894 10.1983C15.4894 11.4441 15.5212 12.4803 14.8797 13.5867C14.3615 14.4853 13.5378 15.0388 12.6232 15.0388C11.3732 15.0388 10.6407 14.1048 10.6407 12.7224C10.6407 10.0026 13.1327 9.50634 15.4894 9.50634V10.1983Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_296_248">
+                      <rect width="27" height="24" fill="white" transform="translate(0.333008)"/>
+                    </clippath>
+                  </defs>
+                </svg>
+
+
+              </a>
+
+              <a href="https://sza.lnk.to/SOS">
+                <svg width="36" height="23" viewBox="0 0 36 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_296_252)">
+                    <path d="M23.9046 5.74909L17.8333 11.5L11.7617 5.74909L17.8333 0L23.9046 5.74909Z" fill="white"/>
+                    <path d="M23.9046 17.2499L17.8333 23L11.7617 17.2499L17.8333 11.5L23.9046 17.2499Z" fill="white"/>
+                    <path d="M11.7616 5.74928L6.04715 11.5L0.333008 5.74928L6.04715 0L11.7616 5.74928Z" fill="white"/>
+                    <path d="M35.3329 5.74928L29.6189 11.5L23.9043 5.74928L29.6189 0L35.3329 5.74928Z" fill="white"/>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_296_252">
+                      <rect width="35" height="23" fill="white" transform="translate(0.333008)"/>
+                    </clippath>
+                  </defs>
+                </svg>
+              </a>
+
+
+              <a href="https://sza.lnk.to/SOS">
+                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M28.7111 8.6998C28.7111 8.6998 28.4279 6.70039 27.5557 5.82246C26.4512 4.66699 25.2164 4.66133 24.65 4.59336C20.5945 4.29883 14.5057 4.29883 14.5057 4.29883H14.4943C14.4943 4.29883 8.40547 4.29883 4.35 4.59336C3.78359 4.66133 2.54883 4.66699 1.44434 5.82246C0.57207 6.70039 0.294531 8.6998 0.294531 8.6998C0.294531 8.6998 0 11.0504 0 13.3953V15.593C0 17.9379 0.288867 20.2885 0.288867 20.2885C0.288867 20.2885 0.57207 22.2879 1.43867 23.1658C2.54316 24.3213 3.99316 24.2816 4.63887 24.4063C6.96113 24.6271 14.5 24.6951 14.5 24.6951C14.5 24.6951 20.5945 24.6838 24.65 24.3949C25.2164 24.327 26.4512 24.3213 27.5557 23.1658C28.4279 22.2879 28.7111 20.2885 28.7111 20.2885C28.7111 20.2885 29 17.9436 29 15.593V13.3953C29 11.0504 28.7111 8.6998 28.7111 8.6998ZM11.5037 18.2607V10.1102L19.3371 14.1996L11.5037 18.2607Z" fill="white"/>
+                </svg>
+
+              </a>
+
+
+            </div>
+          </div>
+
+          <h1 class="thankyou">THANK YOU!</h1>
+
+          <div id="apple_form" class="apple-form-wrapper">
+            <form id="apple_music_form" class="apple-form">
+              <label for="apple_music_email_address">Email Address</label>
+              <div class="input-wrapper">
+                <input id="apple_music_email_address" type="text" class="form-control" placeholder="Email Address" value required>
+                <div class="input-group-append">
+                  <button id="apple-submit" class="btn btn-outline-secondary" type="submit">Go</button>
+                </div>
+              </div>
+              <p id="apple-success">Thank you for signing up!</p>
+              <p id="apple-error">Email is invalid</p>
+              <p id="apple-presave-back">BACK
+              </p>
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Toggle --------------------------------------------------------------- -->
+    <!-- <div id="footer-toggle" class="footer-btn">
+    <div id="toggle-svg-footer" class="">
+      <svg width="30" height="30" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="27" width="6" height="60" rx="3" fill="white"></rect>
+        <rect y="33" width="6" height="60" rx="3" transform="rotate(-90 0 33)" fill="white"></rect>
+      </svg>
+    </div>
+  </div> -->
+
+
+
+    <!-- Footer --------------------------------------------------------------- -->
+    <footer class="footer hidden">
+      <div class="inner">
+
+        <p id="copy">© 2022 SONY MUSIC ENTERTAINMENT.</p>
+
+        <div>
+          <form id="sza-newsletter" class="newsletter-form">
+            <input type="hidden" name="js_url" id="js_url" value="https://subs.sonymusicfans.com/submit">
+            <input type="hidden" name="ae_segment_id" id="ae_segment_id" value="1727353">
+            <input type="hidden" name="ae_brand_id" id="ae_brand_id" value="3450049">
+            <input type="hidden" name="ae_activities" id="ae_activities" value="{" actions":{"formsubmission":99279,"secondaryformsubmission":0},"mailing_list_optins":{"a0S0800000Um0rpEAB":99280}}">
+            <input type="hidden" name="ae" id="ae" value="7d966967c22fe575eae042270621e3c2f218f9800e9d9a320a8ccb08322ccecd">
+            <input type="hidden" name="form" value="223827">
+
+            <div class="newsletterinput-wrapper">
+              <label for="field_email_address">Email Address</label>
+              <input class="form-control" placeholder="newsletter" id="field_email_address" name="field_email_address" type="text">
+
+              <div class="input-group hidden">
+                <div class="checkbox">
+                  <label for="mailing-list-id[0]">
+                    <input type="hidden" id="mailing-list-id[0]" name="mailing-list-id[0]" value="a0S0800000Um0rpEAB">
+                    <p>I'd like to subscribe to the SZA newsletter</p>
+                  </label>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-default">
+                submit
+              </button>
+            </div>
+
+            <p id="newsletter-success">Thank you for signing up!</p>
+            <p id="newsletter-error">Email is invalid</p>
+          </form>
+          <div class="campaign-footer hidden">
+            <div class="container-fluid">
+              <div id="footer-links">
+                <a href="https://www.sonymusic.com/privacy/termsandconditions.html " target="_blank">Terms and
+                  Conditions</a> |
+                <a href="https://www.sonymusic.com/privacypolicy.html " target="_blank">Privacy Policy</a> |
+                <a href="https://www.sonymusic.com/how-we-use-your-data/" target="_blank">How We Use Your Data</a> | <a href="https://www.sonymusic.com/privacy-policy/#your-california-privacy-rights" target="_blank">Your
+                  California Privacy Rights </a> | <a href="https://www.sonymusic.com/ccpa-contact-form/" target="_blank">Do
+                  Not Sell My Personal Information</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+  </section>
+  <!-- Main script --------------------------------------------------------------- -->
+  <script type="text/javascript" src="js/mainJava.js"></script>
+
+  <script src="https://sme.theappreciationengine.com/framework/js/492?segment=1728044"></script>
+  <script src="js/amk.js"></script>
+  <script src="js/musickit.js"></script>
+
+
+</body></html>
